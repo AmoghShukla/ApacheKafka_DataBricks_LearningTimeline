@@ -21,7 +21,7 @@ A beautiful 30-day roadmap designed to help you **master real-time data pipeline
 
 📂 kafka-databricks-timeline/
 
-├── index.html # Main interactive learning timeline
+├── DataEngineeringRoadmap.html # Main interactive learning timeline
 
 ├── README.md # You're here!
 
@@ -30,7 +30,7 @@ A beautiful 30-day roadmap designed to help you **master real-time data pipeline
 
 ## 🌐 Live Preview
 
-You can open `index.html` in your browser to start learning — it’s fully responsive and interactive.  
+You can open `DataEngineeringRoadmap.html` in your browser to start learning — it’s fully responsive and interactive.  
 To host online, you can use GitHub Pages, Netlify, or Vercel.
 
 ---
