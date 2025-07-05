@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kafka + Databricks Learning Timeline</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f8f9fc, #e0ecff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #1f3c88, #3e92cc);
+      color: white;
+      padding: 2rem 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 4rem;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+      padding: 2rem;
+      transition: transform 0.2s ease;
+    }
+    section:hover {
+      transform: scale(1.01);
+    }
+    h2 {
+      color: #1f3c88;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #3e92cc;
+      padding-bottom: 0.5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0 10px;
+      margin-top: 1rem;
+    }
+    th, td {
+      background: #f1f5fb;
+      padding: 0.9rem 1rem;
+      text-align: left;
+      border-radius: 8px;
+    }
+    th {
+      background-color: #dbeafe;
+      font-weight: 600;
+    }
+    tr:hover td {
+      background-color: #e6f0ff;
+    }
+    .footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #f1f5fb;
+      color: #444;
+      font-size: 0.95rem;
+      border-top: 1px solid #ddd;
+    }
+    .footer a {
+      color: #1f3c88;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>30-Day Learning Plan: Apache Kafka + Databricks</h1>
+    <p>Master real-time data pipelines and analytics in just 1 month!</p>
+  </header>
+  <main>
+    <section>
+      <h2>Week 1: Data Streaming & Kafka Basics</h2>
+      <table>
+        <tr><th>Day</th><th>Topics</th><th>Resources</th></tr>
+        <tr><td>1</td><td>Intro to Data Engineering & Streaming</td><td><a href="https://www.youtube.com/c/AlexTheAnalyst" target="_blank">Alex The Analyst</a></td></tr>
+        <tr><td>2</td><td>Intro to Apache Kafka</td><td><a href="https://developer.confluent.io/learn/kafka/" target="_blank">Kafka 101 + Confluent Blog</a></td></tr>
+        <tr><td>3</td><td>Kafka Architecture</td><td><a href="https://www.udemy.com/course/apache-kafka/" target="_blank">Udemy Course</a>, <a href="https://kafka.apache.org/documentation/" target="_blank">Official Docs</a></td></tr>
+        <tr><td>4</td><td>Kafka CLI Basics</td><td><a href="https://developer.confluent.io/quickstart/kafka-docker/" target="_blank">Docker Quickstart</a></td></tr>
+        <tr><td>5</td><td>Kafka with Python</td><td><a href="https://docs.confluent.io/platform/current/clients/confluent-kafka-python/" target="_blank">Confluent Python Client</a></td></tr>
+        <tr><td>6</td><td>Partitions, Offsets, Consumer Groups</td><td><a href="https://www.udemy.com/course/apache-kafka/" target="_blank">Stephane Maarek Course</a></td></tr>
+        <tr><td>7</td><td>Mini Project: CLI Chat App</td><td>Hands-on</td></tr>
+      </table>
+    </section>
+    <section>
+      <h2>Week 2: Kafka Advanced</h2>
+      <table>
+        <tr><th>Day</th><th>Topics</th><th>Resources</th></tr>
+        <tr><td>8</td><td>Kafka Streams API</td><td><a href="https://kafka.apache.org/documentation/streams/" target="_blank">Kafka Streams Docs</a></td></tr>
+        <tr><td>9</td><td>Kafka + Spark Streaming</td><td><a href="https://databricks.com/glossary/apache-spark-streaming" target="_blank">Databricks Spark Streaming</a></td></tr>
+        <tr><td>10</td><td>Kafka Connect</td><td><a href="https://www.confluent.io/product/connectors/" target="_blank">Kafka Connect</a></td></tr>
+        <tr><td>11</td><td>Schema Registry & AVRO</td><td><a href="https://docs.confluent.io/platform/current/schema-registry/index.html" target="_blank">Confluent Docs</a></td></tr>
+        <tr><td>12</td><td>Kafka Ecosystem via Docker Compose</td><td><a href="https://github.com/confluentinc/cp-all-in-one" target="_blank">GitHub Docker Setup</a></td></tr>
+        <tr><td>13</td><td>Build: Real-Time Log Monitor</td><td>Project</td></tr>
+        <tr><td>14</td><td>Recap & Quiz</td><td>Self-made / ChatGPT</td></tr>
+      </table>
+    </section>
+    <section>
+      <h2>Week 3: Databricks & Spark Basics</h2>
+      <table>
+        <tr><th>Day</th><th>Topics</th><th>Resources</th></tr>
+        <tr><td>15</td><td>Databricks Setup</td><td><a href="https://community.cloud.databricks.com/" target="_blank">Community Edition</a></td></tr>
+        <tr><td>16</td><td>Spark Basics</td><td><a href="https://www.databricks.com/learn/training/overview" target="_blank">Databricks Notebook</a></td></tr>
+        <tr><td>17</td><td>File I/O in Databricks</td><td><a href="https://docs.databricks.com/en/" target="_blank">Databricks Docs</a></td></tr>
+        <tr><td>18</td><td>Delta Lake & Lakehouse</td><td><a href="https://www.youtube.com/watch?v=9rjWkD3E5fA" target="_blank">Delta Explained</a></td></tr>
+        <tr><td>19</td><td>MLflow & ML Intro</td><td><a href="https://mlflow.org/" target="_blank">MLflow</a></td></tr>
+        <tr><td>20</td><td>ETL Pipeline Project</td><td>Databricks</td></tr>
+        <tr><td>21</td><td>Mini Project: Sales Analysis</td><td>Notebook</td></tr>
+      </table>
+    </section>
+    <section>
+      <h2>Week 4: Kafka + Databricks Integration</h2>
+      <table>
+        <tr><th>Day</th><th>Topics</th><th>Resources</th></tr>
+        <tr><td>22</td><td>Structured Streaming</td><td><a href="https://docs.databricks.com/en/structured-streaming/index.html" target="_blank">Databricks Docs</a></td></tr>
+        <tr><td>23</td><td>Connect Kafka to Databricks</td><td><a href="https://docs.databricks.com/en/structured-streaming/kafka.html" target="_blank">Kafka Connector Docs</a></td></tr>
+        <tr><td>24</td><td>Streaming Transformations</td><td>Notebook</td></tr>
+        <tr><td>25</td><td>Dashboards with SQL + Delta</td><td><a href="https://docs.databricks.com/en/sql/index.html" target="_blank">Databricks SQL</a></td></tr>
+        <tr><td>26</td><td>Use Case: Fraud Detection</td><td>Sample Data</td></tr>
+        <tr><td>27</td><td>Use Case: Real-time Recommendations</td><td><a href="https://spark.apache.org/mllib/" target="_blank">MLlib + Kafka</a></td></tr>
+        <tr><td>28</td><td>Final Project: Choose & Plan</td><td>Stock, IoT, Sentiment</td></tr>
+        <tr><td>29</td><td>Final Project: Build & Document</td><td>Notebook + MLflow</td></tr>
+        <tr><td>30</td><td>Finish + Present + Blog</td><td>GitHub / Notion / LinkedIn</td></tr>
+      </table>
+    </section>
+  </main>
+  <div class="footer">
+    🚀 Made with ❤️ by Amogh Shukla — Code. Stream. Analyze. Repeat.<br><br>
+    <a href="https://github.com/AmoghShukla" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/amogh-shukla-57b1a7247/" target="_blank">LinkedIn</a> |
+    <a href="mailto:amoghshukla1616@gmail.com">amoghshukla1616@gmail.com</a>
+  </div>
+</body>
+</html>
